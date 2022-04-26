@@ -1,5 +1,4 @@
-# Youtube-Css
-Youtube Css with Fluent Theme.
+# Youtube Css for Fluent Theme.
 
 Looks like this:
 
