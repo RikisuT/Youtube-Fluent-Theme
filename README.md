@@ -20,3 +20,10 @@ Will be constantly editing
 Please notify if any issues found.
 
 You can use Enhancer for Youtube or Tweaks for YouTube extentions to apply this theme.
+
+All know option drawers have blurred background
+
+This project is taken from a dropped stylish extentions theme called APPLE-TUBE (BIG 2020 UPDATE)
+https://userstyles.org/styles/175984/apple-tube-big-2020-update
+
+I have removed several features such as color change to make the css as light on the ram as possible.
