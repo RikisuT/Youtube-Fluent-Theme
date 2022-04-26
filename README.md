@@ -1,7 +1,7 @@
 # Youtube-Css
-Youtube Css with Fluent Theme
+Youtube Css with Fluent Theme.
 
-Looks like this
+Looks like this:
 
 Home Page:
  ![image](https://user-images.githubusercontent.com/47000780/165353523-8193050f-b209-4a46-9440-1c4fc81732cb.png)
@@ -21,11 +21,11 @@ Please notify if any issues found.
 
 You can use Enhancer for Youtube or Tweaks for YouTube extentions to apply this theme.
 
-All know option drawers have blurred background
+All know option drawers have blurred background.
 
 This project is taken from a dropped stylish extentions theme called APPLE-TUBE (BIG 2020 UPDATE)
 https://userstyles.org/styles/175984/apple-tube-big-2020-update
 
 I have removed several features such as color change to make the css as light on the ram as possible.
 
-Blur backdrop does not work with Firefox
+Blur backdrop does not work with Firefox.
