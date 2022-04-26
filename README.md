@@ -27,3 +27,5 @@ This project is taken from a dropped stylish extentions theme called APPLE-TUBE 
 https://userstyles.org/styles/175984/apple-tube-big-2020-update
 
 I have removed several features such as color change to make the css as light on the ram as possible.
+
+Blur backdrop does not work with Firefox
