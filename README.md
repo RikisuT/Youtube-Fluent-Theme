@@ -1,6 +1,6 @@
 # Youtube Css for Fluent Theme.
 
-### **You can find a preview of all the themes in [Preview.md](./Preview.md).**
+### **You can find a preview of the theme in [Preview.md](./Preview.md).**
 
 ### **Yes the home page automatically hides the navigation bar on the left. For it to appear you have to click on the hamburger menu button twice after which it will work as usual. I will make another css file where the hompage navigation menu doesnt hide automatically.**
 
