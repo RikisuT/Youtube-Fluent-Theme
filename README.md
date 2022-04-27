@@ -18,7 +18,7 @@ Will be constantly editing
 
 Please notify if any issues found.
 
-You can use Enhancer for Youtube or Tweaks for YouTube extentions to apply this theme.
+You can use either Enhancer for Youtube Extension or Tweaks for YouTube Extension to apply this theme.
 
 All know option drawers have blurred background.
 
