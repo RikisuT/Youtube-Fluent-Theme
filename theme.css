@@ -1165,6 +1165,9 @@ yt-notification-action-renderer {
     -webkit-backdrop-filter: blur(10px) !important;
     transition-duration: 200ms !important;
 }
+tp-yt-app-drawer.ytd-app[persistent] {
+    display:none;
+}
 ytd-watch-flexy[flexy][is-two-columns_][is-extra-wide-video_] #primary.ytd-watch-flexy, ytd-watch-flexy[flexy][is-two-columns_][is-four-three-to-sixteen-nine-video_] #primary.ytd-watch-flexy {
     max-width: var(--ytd-watch-flexy-max-player-width)+100px !important;
 }
