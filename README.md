@@ -12,11 +12,6 @@
 
 ## Installation and usage
 You can use either Enhancer for Youtube Extension, Tweaks for YouTube Extension or any other such Extensions to apply this theme.
-    
-
-### Extra
-
-The `_Extra`will folder contain additional resources for tweaking the look of Youtube.
 
 ## Contributions and Troubleshooting
 
