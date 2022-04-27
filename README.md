@@ -15,7 +15,7 @@
 ## Installation and usage
 You can use either Enhancer for Youtube Extension, Tweaks for YouTube Extension or any other such Extensions to apply this theme.
 
-Go to the custom css section of the extention you use and copy paste all the contents of [theme.css](./theme.css)
+Go to the custom css section of the extention you use and copy paste all the contents of any of the themes in [Themes](./Themes) folder.
 
 If using the autohide theme paste all the contents of [javascript.js](./reveal-nav-bar-javascript.js) to the custom javascript of the extension.
 
