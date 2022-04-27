@@ -1,30 +1,28 @@
 # Youtube Css for Fluent Theme.
 
-Looks like this:
+### **Yes the home page automatically hides the navigation bar on the left. For it to appear you have to click on the hamburger menu button twice after which it will work as usual. I will make another css file where the hompage navigation menu doesnt hide automatically.**
 
-Home Page:
- ![image](https://user-images.githubusercontent.com/47000780/165353523-8193050f-b209-4a46-9440-1c4fc81732cb.png)
+### **You can find a preview of all the themes in [THEMES.md](./THEMES.md).**
 
-Explore page:
- ![image](https://user-images.githubusercontent.com/47000780/165353147-339ae0da-10a9-4961-a106-348b6a0e50f9.png)
+## Notes:
 
-Video:
- ![image](https://user-images.githubusercontent.com/47000780/165353416-3bfc0542-4a86-49fe-a400-1ddc96e371d0.png)
+*   **Does not work with Firefox because backdrop blur isnt supported.**
+*   **Will be constantly editing**.
+*   **This project is taken from a dropped stylish extentions theme called [APPLE-TUBE (BIG 2020 UPDATE)](https://userstyles.org/styles/175984/apple-tube-big-2020-update).**
 
-Channel Page:
- ![image](https://user-images.githubusercontent.com/47000780/165353648-451546cc-6f8a-447b-ab71-14cbf52702b4.png)
+## Installation and usage
+You can use either Enhancer for Youtube Extension, Tweaks for YouTube Extension or any other such Extensions to apply this theme.
+    
 
-Will be constantly editing 
+### Extra
 
-Please notify if any issues found.
+The `_Extra`will folder contain additional resources for tweaking the look of Youtube.
 
-You can use either Enhancer for Youtube Extension or Tweaks for YouTube Extension to apply this theme.
+## Contributions and Troubleshooting
 
-All know option drawers have blurred background.
+Please notify if any issues found. Use GitHub issues or DM me on [Discord](https://discordapp.com/users/729243788685475911).
 
-This project is taken from a dropped stylish extentions theme called APPLE-TUBE (BIG 2020 UPDATE)
-https://userstyles.org/styles/175984/apple-tube-big-2020-update
+## Useful resources
 
-I have removed several features such as color change to make the css as light on the ram as possible.
-
-Blur backdrop does not work with Firefox.
+*   [Enhancer for Youtube](https://chrome.google.com/webstore/detail/enhancer-for-youtube/ponfpcnoihfmfllpaingbgckeeldkhle)
+*   [Tweaks for YouTube](https://chrome.google.com/webstore/detail/tweaks-for-youtube/ogkoifddpkoabehfemkolflcjhklmkge)
