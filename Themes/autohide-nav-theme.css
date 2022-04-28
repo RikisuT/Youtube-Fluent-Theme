@@ -1206,4 +1206,5 @@ ytd-macro-markers-list-item-renderer[layout=MACRO_MARKERS_LIST_ITEM_RENDERER_LAY
 }
 ytd-thumbnail-overlay-time-status-renderer {
     border-radius: 10px !important;
+    padding: 4px 4px !important;
 }
