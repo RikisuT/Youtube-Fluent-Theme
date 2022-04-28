@@ -1212,5 +1212,15 @@ ytd-macro-markers-list-item-renderer[layout=MACRO_MARKERS_LIST_ITEM_RENDERER_LAY
 ytd-thumbnail-overlay-time-status-renderer {
     border-radius: 10px !important;
     padding: 6px 6px !important;
+    background-color: rgb(0 0 0 / 35%) !important;
+    backdrop-filter: blur(10px) !important;
+}
+#button.ytd-toggle-button-renderer yt-icon.ytd-toggle-button-renderer+yt-formatted-string.ytd-toggle-button-renderer {
+    margin-left: var(--yt-string-icon-padding, 8px);
+    color: #ffffffa3 !important;
+}
+span.ytd-thumbnail-overlay-loading-preview-renderer{
+    border-radius: 8px !important;
     background-color: rgb(0 0 0 / 45%) !important;
+    backdrop-filter: blur(10px) !important;
 }
