@@ -314,6 +314,7 @@ ytd-video-secondary-info-renderer {
 /*dark theme background fix*/
 #label.ytd-toggle-theme-compact-link-renderer {
     background: none !important;
+    backdrop-filter: none !important;
 }
 /*video shadow fix (channel)*/
 .html5-video-player:not(.ytp-transparent), .html5-video-player.unstarted-mode, .html5-video-player.ad-interrupting, .html5-video-player.ended-mode, .html5-video-player.ytp-fullscreen {
@@ -1178,7 +1179,6 @@ ytd-browse[mini-guide-visible] ytd-playlist-sidebar-renderer.ytd-browse {
 ytd-browse[guide-persistent-and-visible] ytd-playlist-sidebar-renderer.ytd-browse {
     left: var(--app-drawer-width) !important;
 }
-
 ytd-browse[page-subtype=playlist][has-sidebar_] ytd-two-column-browse-results-renderer.ytd-browse, ytd-browse[page-subtype=show][has-sidebar_] ytd-two-column-browse-results-renderer.ytd-browse {
     padding-left: 360px !important;
     margin-left: var(--app-drawer-width) !important;
@@ -1186,6 +1186,21 @@ ytd-browse[page-subtype=playlist][has-sidebar_] ytd-two-column-browse-results-re
 ytd-alert-with-button-renderer[is-displayed] {
     display: none !important;
 }
-#label.ytd-toggle-theme-compact-link-renderer {
-    backdrop-filter: none !important;
+/*Chapter Preview*/
+ytd-expandable-metadata-renderer {
+    border-radius: 10px !important;
+}
+ytd-macro-markers-list-item-renderer.ytd-horizontal-card-list-renderer {
+    border-radius: 12px !important;
+}
+ytd-macro-markers-list-item-renderer[layout=MACRO_MARKERS_LIST_ITEM_RENDERER_LAYOUT_VERTICAL] #thumbnail.ytd-macro-markers-list-item-renderer yt-img-shadow.ytd-macro-markers-list-item-renderer {
+    border-radius: 8px !important;
+}
+#thumbnail.ytd-macro-markers-list-item-renderer {
+    height: 56px;
+    width: 100px;
+    background: none !important;
+}
+ytd-macro-markers-list-item-renderer[layout=MACRO_MARKERS_LIST_ITEM_RENDERER_LAYOUT_VERTICAL] #time.ytd-macro-markers-list-item-renderer {
+    border-radius: 6px !important;
 }
