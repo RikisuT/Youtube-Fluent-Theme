@@ -13,7 +13,7 @@
 *   **This project is taken from a dropped stylish extentions theme called [APPLE-TUBE (BIG 2020 UPDATE)](https://userstyles.org/styles/175984/apple-tube-big-2020-update).**
 
 ## Installation and usage
-You can use either Enhancer for Youtube Extension, Tweaks for YouTube Extension or any other such Extensions to apply this theme.
+You can use Stylus, Enhancer for Youtube Extension, Tweaks for YouTube Extension or any other such Extensions to apply this theme.
 
 Go to the custom css section of the extention you use and copy paste all the contents of any of the themes in [Themes](./Themes) folder.
 
@@ -24,6 +24,7 @@ If using the autohide theme paste all the contents of [javascript.js](./reveal-n
 Please notify if any issues found. Use GitHub issues or DM me on [Discord](https://discordapp.com/users/729243788685475911).
 
 ## Useful resources
-
+*   [Stylus](https://chrome.google.com/webstore/detail/stylus/clngdbkpkpeebahjckkjfobafhncgmne)
 *   [Enhancer for Youtube](https://chrome.google.com/webstore/detail/enhancer-for-youtube/ponfpcnoihfmfllpaingbgckeeldkhle)
 *   [Tweaks for YouTube](https://chrome.google.com/webstore/detail/tweaks-for-youtube/ogkoifddpkoabehfemkolflcjhklmkge)
+*   
