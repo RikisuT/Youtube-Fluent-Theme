@@ -10,3 +10,6 @@ Video:
 
 Channel Page:
  ![image](https://user-images.githubusercontent.com/47000780/165353648-451546cc-6f8a-447b-ab71-14cbf52702b4.png)
+
+Subtitles:
+![image](https://user-images.githubusercontent.com/47000780/167867060-2b53870e-770d-4d51-ae43-6318c96541df.png)
