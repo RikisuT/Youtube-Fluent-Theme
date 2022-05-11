@@ -1228,9 +1228,10 @@ span.ytd-thumbnail-overlay-loading-preview-renderer{
     text-align: center !important;
     left: 50% !important;
     line-height: 1.5 !important;
-    margin-left: -12.8%;
-    width: auto;
+    margin-left: -8.01%;
+    width: auto !important;
 }
+
 #right-arrow.ytd-feed-filter-chip-bar-renderer{
     background: linear-gradient(270deg, black, transparent);
 }
