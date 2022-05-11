@@ -1224,11 +1224,12 @@ span.ytd-thumbnail-overlay-loading-preview-renderer{
     background-color: rgb(0 0 0 / 45%) !important;
     backdrop-filter: blur(10px) !important;
 }
-.caption-window{
+.caption-window {
     text-align: center !important;
     left: 50% !important;
     line-height: 1.5 !important;
-    margin-left: -245px !important;
+    margin-left: -12.8%;
+    width: auto;
 }
 #right-arrow.ytd-feed-filter-chip-bar-renderer{
     background: linear-gradient(270deg, black, transparent);
