@@ -2,6 +2,8 @@
 
 ### **You can find a preview of the theme in [Preview](./Preview).**
 
+### **Tutorial Video**
+[Tutorial video by LAW-Tutorials](https://www.youtube.com/embed/-bo-Z01os-s)
 
 ### **Yes the home page automatically hides the navigation bar on the left. For it to appear you have to click on the hamburger menu button twice after which it will work as usual. I will make another css file where the hompage navigation menu doesnt hide automatically.**
 
