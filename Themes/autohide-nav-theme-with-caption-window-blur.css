@@ -218,7 +218,6 @@ ytd-post-renderer[uses-compact-lockup_] {
 /*outline delete*/
 .style-scope:focus {
     outline: none;
-    border-radius: 10px !important;
 }
 /*view email button border radius*/
 ytd-button-renderer[is-paper-button]{
@@ -393,12 +392,12 @@ label.ytd-toggle-theme-compact-link-renderer {
     background: transparent !important;
 }
 /*watch later icon (thumbnail) backdrop filter / border radius*/
-div#label {
+/*div#label {
     background: rgba(50, 50, 50, 0.60) !important;
     backdrop-filter: blur(20px) !important;
     -webkit-backdrop-filter: blur(20px) !important;
     border-radius: 5px !important;
-}
+}*/
 /*merchandise title margin top*/
 div#title {
     margin-top: 10px !important;
@@ -424,6 +423,9 @@ ytp-cards-teaser-box {
 #primary-links.ytd-c4-tabbed-header-renderer, #secondary-links.ytd-c4-tabbed-header-renderer {
     border-radius: 10px !important;
     margin-right: 10px;
+}
+ytcp-button[type=filled] {
+    border-radius: 10px;
 }
 /*yt button border radius*/
 ytd-button-renderer.style-destructive[is-paper-button] {
@@ -492,6 +494,9 @@ html:not(.style-scope), :not(.style-scope) {
 ytd-video-preview {
     padding: 0px !important;
     margin: 12px !important;
+}
+#meta.ytd-video-preview {
+    border-radius: 0px !important;
 }
 ytd-video-preview[active] {
     backdrop-filter: blur(10px) !important;
@@ -797,7 +802,7 @@ yt-live-chat-header-renderer.style-scope.yt-live-chat-renderer {
 }
 #header-background.ytd-donation-shelf-renderer {
     display: none !important;
-    top: none !important;
+
 }
 /*ytd transparent background*/
 #contentContainer.app-drawer[opened], #guide-wrapper.ytd-app {
@@ -1064,7 +1069,6 @@ a.ytp-title-channel-logo {
 ytd-miniplayer.style-scope.ytd-app {
     margin-right: 10px !important;
     background: transparent !important;
-    box-shadow: transparent !important;
 }
 /*miniplayer info bar border radius / backdrop filter / color*/
 #info-bar.ytd-miniplayer {
@@ -1259,7 +1263,7 @@ ytd-watch-metadata {
   display: block !important;
 }
 
-/* Permanent fixes */
+/* NEW UI FIXES */
 /* Removes second comment section, */
 #comment-teaser.ytd-watch-metadata {
 display: none;
@@ -1278,6 +1282,7 @@ ytd-watch-metadata[smaller-yt-sans-light-title] h1.ytd-watch-metadata {
   font-weight: 400;
   font-size: 18px;
 }
+
 ytd-video-primary-info-renderer[use-yt-sans20-light] .title.ytd-video-primary-info-renderer {
   font-family: "Roboto",sans-serif;
   font-weight: 400;
@@ -1287,3 +1292,4 @@ ytd-video-primary-info-renderer[use-yt-sans20-light] .title.ytd-video-primary-in
 .yt-formatted-string[style-target="bold"] {
   font-weight: 400;
 }
+
