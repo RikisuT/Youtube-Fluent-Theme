@@ -7,7 +7,7 @@
 ## Notes:
 
 *   **Does not work with Firefox because backdrop blur isnt supported.**
-*   **Will be constantly editing**.
+*   **~~Will be constantly editing~~ Thats what I thought but I had Exams. Sorry for the delay. Will continue at the earliest.**.
 *   **If using the autohide nav theme theme please apply both css and javascript if you want to see the navigation menu when pressing the button.**
 *   **If only css is used navigation menu will never appear even if clicked multiple times.**
 *   **This project is taken from a dropped stylish extentions theme called [APPLE-TUBE (BIG 2020 UPDATE)](https://userstyles.org/styles/175984/apple-tube-big-2020-update).**
@@ -21,7 +21,7 @@ If using the autohide theme paste all the contents of [javascript.js](./reveal-n
 
 ## Contributions and Troubleshooting
 
-Please notify if any issues found. Use GitHub issues or DM me on [Discord](https://discordapp.com/users/729243788685475911).
+Please notify if any issues found. Use GitHub issues or DM me on [Discord](https://discordapp.com/users/729243788685475911). I am not a professional coder nor have i learnt css fully. Please do not hesitate to mark issues.
 
 ## Useful resources
 *   [Stylus](https://chrome.google.com/webstore/detail/stylus/clngdbkpkpeebahjckkjfobafhncgmne)
