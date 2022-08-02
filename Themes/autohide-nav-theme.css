@@ -797,7 +797,6 @@ yt-live-chat-header-renderer.style-scope.yt-live-chat-renderer {
 }
 #header-background.ytd-donation-shelf-renderer {
     display: none !important;
-    top: none !important;
 }
 /*ytd transparent background*/
 #contentContainer.app-drawer[opened], #guide-wrapper.ytd-app {
