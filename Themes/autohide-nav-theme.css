@@ -493,6 +493,9 @@ ytd-video-preview {
     padding: 0px !important;
     margin: 12px !important;
 }
+#meta.ytd-video-preview {
+    border-radius: 0px !important;
+}
 ytd-video-preview[active] {
     backdrop-filter: blur(10px) !important;
     border-radius: 10px !important;
