@@ -1066,7 +1066,6 @@ a.ytp-title-channel-logo {
 ytd-miniplayer.style-scope.ytd-app {
     margin-right: 10px !important;
     background: transparent !important;
-    box-shadow: transparent !important;
 }
 /*miniplayer info bar border radius / backdrop filter / color*/
 #info-bar.ytd-miniplayer {
