@@ -2,10 +2,7 @@
 
 ### **You can find a preview of the theme in [Preview](./Preview).**
 
-Tutoral Video
-<p align="center">
-<iframe width="560" height="315" src="https://www.youtube.com/embed/-bo-Z01os-s" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-</p>
+
 ### **Yes the home page automatically hides the navigation bar on the left. For it to appear you have to click on the hamburger menu button twice after which it will work as usual. I will make another css file where the hompage navigation menu doesnt hide automatically.**
 
 ## Notes:
