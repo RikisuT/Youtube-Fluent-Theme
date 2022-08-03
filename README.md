@@ -3,8 +3,6 @@
 ### **You can find a preview of the theme in [Preview](./Preview).**
 
 ### **NOT RECCOMENDED TO USE THE VERSION WITHOUT CAPTION WINDOWS BLUR AS IT BLURS EACH WORD, MAKING IT HIGHLY GPU INTENSIVE. ESPECIALLY IF THE CAPTION HAS MULTIPLE EFFECTS**
-### **Tutorial Video**
-[Tutorial video by LAW-Tutorials](https://www.youtube.com/embed/-bo-Z01os-s)
 
 ### **Yes the home page automatically hides the navigation bar on the left. For it to appear you have to click on the hamburger menu button twice after which it will work as usual. I will make another css file where the hompage navigation menu doesnt hide automatically.**
 
@@ -18,6 +16,7 @@
 *   **This project is forked from a dropped stylish extentions theme called [APPLE-TUBE (BIG 2020 UPDATE)](https://userstyles.org/styles/175984/apple-tube-big-2020-update).**
 
 ## Installation and usage
+**[Tutorial video by LAW-Tutorials](https://www.youtube.com/embed/-bo-Z01os-s)**
 You can use Stylus, Enhancer for Youtube Extension, Tweaks for YouTube Extension or any other such Extensions to apply this theme.
 
 Go to the custom css section of the extention you use and copy paste all the contents of any of the themes in [Themes](./Themes) folder.
