@@ -8,6 +8,7 @@
   .caption-window {
    background-color: rgba(50, 50, 50, .2) !important;/*CHANGE THE DECIMAL VALUE TO ADJUST THE DARKNESS OF THE CAPTION WINDOW*/
    backdrop-filter: blur(10px) !important;
+   border-radius: 10px !important;
   }
 /*Dark search text 
   .sbsb_d{
@@ -1198,9 +1199,6 @@ tp-yt-iron-overlay-backdrop.opened {
 
 /*subtitles bg color / backdrop filter*/
 .caption-window {
-    border-radius: 10px !important;
-    background-color: rgba(50, 50, 50, .1) !important;
-    backdrop-filter: blur(10px) !important;
     text-align: center !important;
     width: auto !important;
     left: 50% !important;
@@ -1284,14 +1282,6 @@ span.ytd-thumbnail-overlay-loading-preview-renderer{
     background-color: rgb(0 0 0 / 45%) !important;
     backdrop-filter: blur(10px) !important;
 }
-.caption-window {
-    text-align: center !important;
-    left: 50% !important;
-    line-height: 1.5 !important;
-    margin-left: -8.01%;
-    width: auto !important;
-}
-
 #right-arrow.ytd-feed-filter-chip-bar-renderer{
     background: linear-gradient(270deg, black, transparent);
 }
