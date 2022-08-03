@@ -1305,7 +1305,7 @@ span.ytd-thumbnail-overlay-loading-preview-renderer{
     width: auto !important;
 }
 #meta.ytd-video-preview {
-		border-radius: 0px !important;
+    border-radius: 0px !important;
 }
 /* FIX FOR NEW YT THEME*/
     /* Temporary fixes. THESE WILL NOT WORK THE NEXT TIME YOUTUBE UPDATES ITS CODE. */
