@@ -1209,9 +1209,6 @@ tp-yt-iron-overlay-backdrop.opened {
     transform: translate(-50%, 0%) !important;
     padding: 2px !important;
 }
-.html5-video-player .caption-visual-line .ytp-caption-segment{
-    color: white !important;
-}
 ytd-page-manager.ytd-app {
     margin-left: 0px !important;
 }
