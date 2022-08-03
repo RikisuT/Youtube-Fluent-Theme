@@ -1202,8 +1202,6 @@ tp-yt-iron-overlay-backdrop.opened {
     text-align: center !important;
     width: auto !important;
     left: 50% !important;
-    margin-left: 0px !important;
-    margin-right: -50% !important;
     transform: translate(-50%, 0%) !important;
     padding: 2px !important;
 }
