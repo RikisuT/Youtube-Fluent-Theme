@@ -1,3 +1,15 @@
+/*TO TURN OFF AUTO HIDE SIDEBAR REMOVE THE BELOW CODE AND TURN OFF THE JAVASCRIPT CODE*/
+  /*From Here*/
+    tp-yt-app-drawer.ytd-app[persistent] {
+      display:none;
+    }
+    ytd-page-manager.ytd-app {
+      margin-left: 0px !important;
+    }
+    ytd-mini-guide-renderer.ytd-app {
+      width: 0px !important;
+    }
+  /*To Here*/
 /* SIDEBAR CONFIG */
   #contentContainer.tp-yt-app-drawer[opened] {
    background: #18181818 !important;/*CHANGE THIS TO APPLY COLOR TO SIDEBAR*/
@@ -1173,13 +1185,6 @@ tp-yt-iron-overlay-backdrop.opened {
 #checkbox.tp-yt-paper-checkbox {
  border-radius: 5px !important;
 }
-
-ytd-page-manager.ytd-app {
- margin-left: 0px !important;
-}
-ytd-mini-guide-renderer.ytd-app {
- width: 0px !important;
-}
 #contentWrapper.tp-yt-iron-dropdown > * {
  background-color: #2323233b !important;
 }
@@ -1192,9 +1197,6 @@ yt-notification-action-renderer {
  transform: translate3d(0, 0, 0);
  --webkit-backdrop-filter: blur(10px) !important;
  transition-duration: 200ms !important;
-}
-tp-yt-app-drawer.ytd-app[persistent] {
- display:none;
 }
 ytd-watch-flexy[flexy][is-two-columns_][is-extra-wide-video_] #primary.ytd-watch-flexy, ytd-watch-flexy[flexy][is-two-columns_][is-four-three-to-sixteen-nine-video_] #primary.ytd-watch-flexy {
  max-width: var(--ytd-watch-flexy-max-player-width)+100px !important;
