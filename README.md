@@ -1,10 +1,10 @@
 # Youtube Css for Fluent Theme.
 
-### **You can find a preview of the theme in [Preview](./Preview).**
-
 ### **RECCOMENDED TO USE THE THEME WITH CAPTION WINDOW BLUR. NOT RECCOMENDED TO USE THE VERSION WITHOUT IT AS IT BLURS THE BACKGROUND OF EACH WORD, MAKING IT HIGHLY GPU INTENSIVE. IT KEEPS FLICKERING IF THE CAPTION HAS MULTIPLE EFFECTS.**
 
 ### **Yes the home page automatically hides the navigation bar on the left. For it to appear you have to click on the hamburger menu button twice after which it will work as usual. I will make another css file where the hompage navigation menu doesnt hide automatically.**
+
+### **You can find a preview of the theme in [Preview](./Preview).**
 
 ## Notes:
 
