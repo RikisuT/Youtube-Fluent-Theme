@@ -1,15 +1,15 @@
 /*TO TURN OFF AUTO HIDE SIDEBAR REMOVE THE BELOW CODE AND TURN OFF THE JAVASCRIPT CODE*/
-	/*From Here*/
-        tp-yt-app-drawer.ytd-app[persistent] {
-		display:none;
-	}
-	ytd-page-manager.ytd-app {
-	margin-left: 0px !important;
-	}
-	ytd-mini-guide-renderer.ytd-app {
-		width: 0px !important;
-	}
-	/*To Here*/
+    /*From Here*/
+    tp-yt-app-drawer.ytd-app[persistent] {
+      display:none;
+    }
+    ytd-page-manager.ytd-app {
+      margin-left: 0px !important;
+    }
+    ytd-mini-guide-renderer.ytd-app {
+      width: 0px !important;
+    }
+    /*To Here*/
 /* SIDEBAR CONFIG */
   #contentContainer.tp-yt-app-drawer[opened] {
    background: #18181818 !important;/*CHANGE THIS TO APPLY COLOR TO SIDEBAR*/
