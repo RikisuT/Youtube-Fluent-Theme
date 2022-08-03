@@ -2,7 +2,9 @@
 
 ### **RECCOMENDED TO USE THE THEME WITH CAPTION WINDOW BLUR. NOT RECCOMENDED TO USE THE VERSION WITHOUT IT AS IT BLURS THE BACKGROUND OF EACH WORD, MAKING IT HIGHLY GPU INTENSIVE. IT KEEPS FLICKERING IF THE CAPTION HAS MULTIPLE EFFECTS.**
 
-### **Yes the home page automatically hides the navigation bar on the left. For it to appear you have to click on the hamburger menu button twice after which it will work as usual. I have made it easy to toggle autohide sidebar on or off. Just follow the instruction given as comments in the css files of both the themes**
+### **Yes the home page automatically hides the navigation bar on the left. For it to appear you have to click on the hamburger menu button twice after which it will work as usual.**
+
+### **I have made it easy to toggle autohide sidebar on or off. Just follow the instruction given as comments in the css files of both the themes**
 
 ### **You can find a preview of the theme in [Preview](./Preview).**
 
