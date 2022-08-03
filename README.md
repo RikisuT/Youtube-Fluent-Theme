@@ -13,7 +13,7 @@
 *   **If using the autohide nav theme theme please apply both css and javascript if you want to see the navigation menu when pressing the button.**
 *   **If only css is used, navigation menu will never appear even if clicked multiple times.**
 *   **This theme contains the Modern Scrollbar extension's css [Github repository of Modern Scrollbar](https://github.com/luandersonn/Modern-scrollbar)**
-*   **This project is forked from a dropped stylish extentions theme called [APPLE-TUBE (BIG 2020 UPDATE)](https://userstyles.org/styles/175984/apple-tube-big-2020-update).**
+*   **This project is an tweaked version of a dropped stylish extentions theme called [APPLE-TUBE (BIG 2020 UPDATE)](https://userstyles.org/styles/175984/apple-tube-big-2020-update).**
 
 ## Installation and usage
 **[Tutorial video by LAW-Tutorials](https://www.youtube.com/embed/-bo-Z01os-s)**
