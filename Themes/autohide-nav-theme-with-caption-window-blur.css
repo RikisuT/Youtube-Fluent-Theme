@@ -1,4 +1,55 @@
- /*chapter border radius*/
+/* SIDEBAR CONFIG */
+  #contentContainer.tp-yt-app-drawer[opened] {
+   background: #18181818 !important;/*CHANGE THIS TO APPLY COLOR TO SIDEBAR*/
+   backdrop-filter: blur(10px) !important;
+   border-radius: 10px !important;
+  }
+/*Caption Window BG and Blur*/
+  .caption-window {
+   background-color: rgba(50, 50, 50, .2) !important;/*CHANGE THE DECIMAL VALUE TO ADJUST THE DARKNESS OF THE CAPTION WINDOW*/
+   backdrop-filter: blur(10px) !important;
+  }
+/*Dark search text 
+  .sbsb_d{
+   background: rgba(20, 20, 20, 0.3) !important;
+  }
+*/
+/*Light search text*/
+  .sbsb_d {
+   background: rgba(255, 255, 255, 0.1) !important;
+  }
+/*Scrollbar theme by https://github.com/luandersonn*/
+  body::-webkit-scrollbar {
+   width: 10px;
+   transition: 1.0s;
+  }
+  body::-webkit-scrollbar-thumb {
+   background-color: rgba(127, 127, 127, 0.6);
+   background-clip: padding-box;
+   border: 2px solid transparent;
+   border-radius: 5px;
+   transition: 1.0s;
+  }
+  body::-webkit-scrollbar-thumb:vertical:hover,
+  body::-webkit-scrollbar-thumb:horizontal:hover {
+   background-color: rgb(110, 110, 110);
+   transition: 0.3s;
+  }
+  body::-webkit-scrollbar-track {
+   background-color: transparent;
+  }
+  body::-webkit-scrollbar-thumb:vertical:active,
+  ::-webkit-scrollbar-thumb:horizontal:active {
+   background: rgba(95, 91, 91, 1);
+  }
+  body::-webkit-scrollbar-corner {
+   background: none;
+  }
+/*Smooth Scroll*/
+html {
+   scroll-behavior: smooth;
+}
+/*chapter border radius*/
 ytd-engagement-panel-section-list-renderer {
     border-radius: 15px;
 }
@@ -1254,42 +1305,42 @@ span.ytd-thumbnail-overlay-loading-preview-renderer{
 #search-clear-button.ytd-searchbox {
     width: auto !important;
 }
+#meta.ytd-video-preview {
+		border-radius: 0px !important;
+}
 /* FIX FOR NEW YT THEME*/
-/* Temporary fixes. THESE WILL NOT WORK THE NEXT TIME YOUTUBE UPDATES ITS CODE. */
-ytd-watch-metadata { 
-  display: none !important;
-}
-#meta-contents[hidden], #info-contents[hidden] { 
-  display: block !important;
-}
-
-/* NEW UI FIXES */
-/* Removes second comment section, */
-#comment-teaser.ytd-watch-metadata {
-display: none;
-}
-/* Removes border around creator's name and sub button. NOTE: This part doesn't work as of 1.1, but keeping it for now just in case. */
-#owner.ytd-watch-metadata {
-border: none; 
-}
-/* Removes border around creator's name and sub button. */
-ytd-watch-metadata:not([modern-metapanel]) #owner.ytd-watch-metadata {
-border: none;
-}
-/* Reverts the video title font. */
-ytd-watch-metadata[smaller-yt-sans-light-title] h1.ytd-watch-metadata {
-  font-family: "Roboto",sans-serif;
-  font-weight: 400;
-  font-size: 18px;
-}
-
-ytd-video-primary-info-renderer[use-yt-sans20-light] .title.ytd-video-primary-info-renderer {
-  font-family: "Roboto",sans-serif;
-  font-weight: 400;
-  font-size: 18px;
-}
-/* Removes the bold letters on upload date and view count. */
-.yt-formatted-string[style-target="bold"] {
-  font-weight: 400;
-}
-
+    /* Temporary fixes. THESE WILL NOT WORK THE NEXT TIME YOUTUBE UPDATES ITS CODE. */
+    ytd-watch-metadata { 
+      display: none !important;
+    }
+    #meta-contents[hidden], #info-contents[hidden] { 
+      display: block !important;
+    }
+ /* Permanent fixes */
+   /* Removes second comment section, */
+   #comment-teaser.ytd-watch-metadata {
+   display: none;
+   }
+   /* Removes border around creator's name and sub button. NOTE: This part doesn't work as of 1.1, but keeping it for now just in case. */
+   #owner.ytd-watch-metadata {
+   border: none; 
+   }
+   /* Removes border around creator's name and sub button. */
+   ytd-watch-metadata:not([modern-metapanel]) #owner.ytd-watch-metadata {
+   border: none;
+   }
+   /* Reverts the video title font. */
+   ytd-watch-metadata[smaller-yt-sans-light-title] h1.ytd-watch-metadata {
+     font-family: "Roboto",sans-serif;
+     font-weight: 400;
+     font-size: 18px;
+   }
+   ytd-video-primary-info-renderer[use-yt-sans20-light] .title.ytd-video-primary-info-renderer {
+     font-family: "Roboto",sans-serif;
+     font-weight: 400;
+     font-size: 18px;
+   }
+   /* Removes the bold letters on upload date and view count. */
+   .yt-formatted-string[style-target="bold"] {
+     font-weight: 400;
+   }
