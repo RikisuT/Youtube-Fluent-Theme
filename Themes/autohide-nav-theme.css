@@ -1254,6 +1254,7 @@ span.ytd-thumbnail-overlay-loading-preview-renderer{
  border-radius: 10px !important;
  transform: translate(-50%, 0%) !important;
  padding: 2px !important;
+ margin-left:0px !important;
 }
 #right-arrow.ytd-feed-filter-chip-bar-renderer{
  background: linear-gradient(270deg, black, transparent);
