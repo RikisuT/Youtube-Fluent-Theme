@@ -1293,15 +1293,15 @@ span.ytd-thumbnail-overlay-loading-preview-renderer{
  /* Permanent fixes */
    /* Removes second comment section, */
    #comment-teaser.ytd-watch-metadata {
-   display: none;
+   	display: none;
    }
    /* Removes border around creator's name and sub button. NOTE: This part doesn't work as of 1.1, but keeping it for now just in case. */
    #owner.ytd-watch-metadata {
-   border: none; 
+   	border: none; 
    }
    /* Removes border around creator's name and sub button. */
    ytd-watch-metadata:not([modern-metapanel]) #owner.ytd-watch-metadata {
-   border: none;
+   	border: none;
    }
    /* Reverts the video title font. */
    ytd-watch-metadata[smaller-yt-sans-light-title] h1.ytd-watch-metadata {
@@ -1318,3 +1318,13 @@ span.ytd-thumbnail-overlay-loading-preview-renderer{
    .yt-formatted-string[style-target="bold"] {
 	 font-weight: 400;
    }
+.ytp-panel-menu{
+	padding: 10px!important;
+}
+.ytp-menuitem[role=menuitemradio] .ytp-menuitem-label {
+	padding: 12px;
+	border-radius: 10px;
+}
+.ytp-menuitem[role=menuitemradio][aria-checked=true] .ytp-menuitem-label {
+	  padding-left: 35px;
+}
