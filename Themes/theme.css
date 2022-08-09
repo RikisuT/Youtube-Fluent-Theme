@@ -1,61 +1,62 @@
 /*TO TURN OFF AUTO HIDE SIDEBAR REMOVE THE BELOW CODE AND TURN OFF THE JAVASCRIPT CODE*/
-  /*From Here*/
+    /*From Here*/
     tp-yt-app-drawer.ytd-app[persistent] {
-      display:none;
+      	display:none;
     }
     ytd-page-manager.ytd-app {
-      margin-left: 0px !important;
+     	margin-left: 0px !important;
     }
     ytd-mini-guide-renderer.ytd-app {
-      width: 0px !important;
+      	width: 0px !important;
     }
-  /*To Here*/
+    /*To Here*/
 /* SIDEBAR CONFIG */
   #contentContainer.tp-yt-app-drawer[opened] {
-   background: #18181818 !important;/*CHANGE THIS TO APPLY COLOR TO SIDEBAR*/
-   backdrop-filter: blur(10px) !important;
-   border-radius: 10px !important;
+	   background: #18181818 !important;/*CHANGE THIS TO APPLY COLOR TO SIDEBAR*/
+	   backdrop-filter: blur(10px) !important;
+	   border-radius: 10px !important;
   }
 /*subtitles bg color / backdrop filter*/
-span.ytp-caption-segment {
- background-color: rgba(50, 50, 50, .5) !important;
- backdrop-filter: blur(10px) !important;
- --webkit-backdrop-filter: blur(10px) !important;
- border-radius: 10px !important;
-}
-/*Dark search text sbsb_d{
- background: rgba(20, 20, 20, 0.3) !important;
- }*/
+  span.ytp-caption-segment {
+	 background-color: rgba(50, 50, 50, .5) !important;
+	 backdrop-filter: blur(10px) !important;
+	 --webkit-backdrop-filter: blur(10px) !important;
+	 border-radius: 10px !important;
+  }
+/*Dark search text 
+  .sbsb_d{
+   	background: rgba(20, 20, 20, 0.3) !important;
+  }*/
 /*Light search text*/
- .sbsb_d {
-  background: rgba(255, 255, 255, 0.1) !important;
- }
+  .sbsb_d {
+   	background: rgba(255, 255, 255, 0.1) !important;
+  }
 /*Scrollbar theme by https://github.com/luandersonn*/
   body::-webkit-scrollbar {
-   width: 10px;
-   transition: 1.0s;
+  	width: 10px;
+  	transition: 1.0s;
   }
   body::-webkit-scrollbar-thumb {
-   background-color: rgba(127, 127, 127, 0.6);
-   background-clip: padding-box;
-   border: 2px solid transparent;
-   border-radius: 5px;
-   transition: 1.0s;
+  	background-color: rgba(127, 127, 127, 0.6);
+   	background-clip: padding-box;
+   	border: 2px solid transparent;
+   	border-radius: 5px;
+   	transition: 1.0s;
   }
   body::-webkit-scrollbar-thumb:vertical:hover,
   body::-webkit-scrollbar-thumb:horizontal:hover {
-   background-color: rgb(110, 110, 110);
-   transition: 0.3s;
+   	background-color: rgb(110, 110, 110);
+   	transition: 0.3s;
   }
   body::-webkit-scrollbar-track {
-   background-color: transparent;
+   	background-color: transparent;
   }
   body::-webkit-scrollbar-thumb:vertical:active,
   ::-webkit-scrollbar-thumb:horizontal:active {
-   background: rgba(95, 91, 91, 1);
+   	background: rgba(95, 91, 91, 1);
   }
   body::-webkit-scrollbar-corner {
-   background: none;
+   	background: none;
   }
 /*Smooth Scroll*/
 html {
@@ -1284,24 +1285,34 @@ span.ytd-thumbnail-overlay-loading-preview-renderer{
    }
    /* Removes border around creator's name and sub button. NOTE: This part doesn't work as of 1.1, but keeping it for now just in case. */
    #owner.ytd-watch-metadata {
-   border: none; 
+   	border: none; 
    }
    /* Removes border around creator's name and sub button. */
    ytd-watch-metadata:not([modern-metapanel]) #owner.ytd-watch-metadata {
-   border: none;
+   	border: none;
    }
    /* Reverts the video title font. */
    ytd-watch-metadata[smaller-yt-sans-light-title] h1.ytd-watch-metadata {
-  font-family: "Roboto",sans-serif;
-  font-weight: 400;
-  font-size: 18px;
+	 font-family: "Roboto",sans-serif;
+	 font-weight: 400;
+	 font-size: 18px;
    }
    ytd-video-primary-info-renderer[use-yt-sans20-light] .title.ytd-video-primary-info-renderer {
-  font-family: "Roboto",sans-serif;
-  font-weight: 400;
-  font-size: 18px;
+	 font-family: "Roboto",sans-serif;
+	 font-weight: 400;
+	 font-size: 18px;
    }
    /* Removes the bold letters on upload date and view count. */
    .yt-formatted-string[style-target="bold"] {
-  font-weight: 400;
+	 font-weight: 400;
    }
+.ytp-panel-menu{
+	padding: 10px!important;
+}
+.ytp-menuitem[role=menuitemradio] .ytp-menuitem-label {
+	padding: 12px;
+	border-radius: 10px;
+}
+.ytp-menuitem[role=menuitemradio][aria-checked=true] .ytp-menuitem-label {
+	  padding-left: 35px;
+}
