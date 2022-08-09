@@ -281,7 +281,6 @@ ytd-post-renderer[uses-compact-lockup_] {
 }
 /*view email button border radius*/
 ytd-button-renderer[is-paper-button]{
-	margin-left: -16px;
 	border-radius: 10px !important;
 }
 /*sidebar width*/
