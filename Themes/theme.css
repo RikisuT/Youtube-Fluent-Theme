@@ -375,6 +375,9 @@ ytd-inline-survey-renderer[expanded] #dismissable.ytd-inline-survey-renderer {
 #container.ytd-masthead {
  border-radius: 0px !important;
 }
+html[dark],[dark] {
+	--yt-spec-base-background: #0f0f0f88!important;
+}
 /*merchandise border bottom fix*/
 ytd-video-secondary-info-renderer {
  border-bottom: none !important;
