@@ -10,6 +10,11 @@
       	width: 0px !important;
     }
     /*To Here*/
+/*To get back the Download button remove from here*/
+	ytd-button-renderer.style-scope.ytd-download-button-renderer{
+		display:none!important;
+	}
+    /*to here*/
 /* SIDEBAR CONFIG */
   #contentContainer.tp-yt-app-drawer[opened] {
 	   background: #18181818 !important;/*CHANGE THIS TO APPLY COLOR TO SIDEBAR*/
