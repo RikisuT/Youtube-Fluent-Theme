@@ -1,10 +1,9 @@
-var x = document.getElementById("guide");
+document.getElementById('guide').style.display = 'none';
 
-x.style.display = "none";
+document.getElementById('guide-button').addEventListener('click', () => {
+	document.getElementById('guide').style.display = 'block';
+});
 
-function myFunction() {
-  var x = document.getElementById("guide");
-  x.style.display = "block";
-}
-
-document.getElementById("guide-button").setAttribute("onclick", 'myFunction()');
+document.addEventListener('afterscriptexecute', () => {
+	window.dispatchEvent(new Event('resize'));
+});
