@@ -1,0 +1,16 @@
+ytd-watch-metadata {
+ 	/* display: none !important; */
+	visibility: hidden;
+ 	height: 1px;
+ 	margin-bottom: -1px!important;
+ 	width: 92.2%;
+}
+div#actions-inner{
+	margin-right: 10px;
+}
+ytd-video-primary-info-renderer[flex-menu-enabled] #menu-container.ytd-video-primary-info-renderer,ytd-watch-metadata[flex-menu-enabled] #actions.ytd-watch-metadata{
+	flex: none;
+}
+.ryd-tooltip.ryd-tooltip-new-design {
+	visibility: visible;
+}
