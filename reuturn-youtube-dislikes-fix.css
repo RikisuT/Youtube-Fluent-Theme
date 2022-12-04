@@ -1,15 +1,21 @@
 ytd-watch-metadata {
- 	/* display: none !important; */
+	/* display: none !important; */
+	height: 0px;
+	margin-bottom: 2px!important;
 	visibility: hidden;
- 	height: 1px;
- 	margin-bottom: -1px!important;
- 	width: 92.2%;
 }
-div#actions-inner{
+#owner>#subscribe-button{
+	display: none;
+}
+#actions.ytd-watch-metadata{
 	margin-right: 10px;
+display: block;
 }
 ytd-video-primary-info-renderer[flex-menu-enabled] #menu-container.ytd-video-primary-info-renderer,ytd-watch-metadata[flex-menu-enabled] #actions.ytd-watch-metadata{
 	flex: none;
+}
+ytd-watch-metadata[modern-metapanel-order] #owner.ytd-watch-metadata{
+	min-width: fit-content!important;
 }
 .ryd-tooltip.ryd-tooltip-new-design {
 	visibility: visible;
