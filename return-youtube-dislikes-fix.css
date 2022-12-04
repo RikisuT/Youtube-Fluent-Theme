@@ -7,10 +7,6 @@ ytd-watch-metadata {
 #owner,#bottom-row{
 	display: none!important;
 }
-#actions.ytd-watch-metadata{
-	margin-right: 10px;
-display: block;
-}
 ytd-video-primary-info-renderer[flex-menu-enabled] #menu-container.ytd-video-primary-info-renderer,ytd-watch-metadata[flex-menu-enabled] #actions.ytd-watch-metadata{
 	flex: none;
 }
