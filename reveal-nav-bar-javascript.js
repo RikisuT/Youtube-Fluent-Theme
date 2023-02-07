@@ -19,4 +19,6 @@ document.addEventListener('afterscriptexecute', () => window.dispatchEvent(new E
 
 //When URL changes, hide nav bar
 
-new MutationObserver(mutations => button.click()).observe(document.querySelector('title'), { childList: true });
+new MutationObserver(mutations => {
+    if (container.hasAttribute("opened")) button.click();
+}).observe(document.querySelector('title'), { childList: true });
