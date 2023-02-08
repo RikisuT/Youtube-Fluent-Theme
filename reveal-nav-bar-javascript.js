@@ -1,9 +1,24 @@
-document.getElementById('guide').style.display = 'none';
+let guide = document.querySelector('#guide');
+let container = document.querySelector('#contentContainer');
+let button = document.querySelector('#guide-button');
 
-document.getElementById('guide-button').addEventListener('click', () => {
-	document.getElementById('guide').style.display = 'block';
-});
+//Hides nav bar when loaded
 
-document.addEventListener('afterscriptexecute', () => {
-	window.dispatchEvent(new Event('resize'));
-});
+guide.removeAttribute("guide-persistent-and-visible");
+guide.removeAttribute("opened");
+guide.setAttribute("mini-guide-visible", "");
+container.removeAttribute("opened");
+
+//Allow transitions to play
+
+button.addEventListener("click", () => guide.setAttribute("reveal-nav-bar", ""));
+
+//Re-arrange thumbnails
+
+document.addEventListener('afterscriptexecute', () => window.dispatchEvent(new Event('resize')));
+
+//When URL changes, hide nav bar
+
+new MutationObserver(mutations => {
+    if (container.hasAttribute("opened")) button.click();
+}).observe(document.querySelector('title'), { childList: true });
