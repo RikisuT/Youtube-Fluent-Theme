@@ -22,3 +22,21 @@ document.addEventListener('afterscriptexecute', () => window.dispatchEvent(new E
 new MutationObserver(mutations => {
     if (container.hasAttribute("opened")) button.click();
 }).observe(document.querySelector('title'), { childList: true });
+
+(function() {
+  'use strict';
+
+  const header = document.querySelector('div#header.ytd-app');
+
+  if (header) {
+    function updateHeaderDisplay() {
+      if (window.location.pathname === '/') {
+        header.style.display = 'none';
+      } else {
+        header.style.display = 'flex';
+      }
+      requestAnimationFrame(updateHeaderDisplay);
+    }
+    updateHeaderDisplay();
+  }
+})();
