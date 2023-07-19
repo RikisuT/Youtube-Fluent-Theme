@@ -1,0 +1,6 @@
+ div#scrim, #scrim.tp-yt-app-drawer {	
+     transition-property: opacity, backdrop-filter !important;	
+     transition-duration: 200ms !important;	
+     transition-timing-function: cubic-bezier(0, .8, .2, 1) !important;	
+     backdrop-filter: blur(5px) !important;	
+}	
