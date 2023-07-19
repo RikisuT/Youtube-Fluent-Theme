@@ -1,0 +1,7 @@
+#menu-container {
+  display: flex;
+  flex-direction: column;
+}
+ytd-video-primary-info-renderer[flex-menu-enabled] #menu-container.ytd-video-primary-info-renderer {
+    flex: inherit;
+}
