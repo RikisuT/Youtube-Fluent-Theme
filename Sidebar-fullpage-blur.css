@@ -1,6 +1,15 @@
- div#scrim, #scrim.tp-yt-app-drawer {	
-     transition-property: opacity, backdrop-filter !important;	
-     transition-duration: 200ms !important;	
-     transition-timing-function: cubic-bezier(0, .8, .2, 1) !important;	
-     backdrop-filter: blur(5px) !important;	
+div#scrim, #scrim.tp-yt-app-drawer {	
+    transition-property: opacity, backdrop-filter !important;	
+    transition-duration: 200ms !important;	
+    transition-timing-function: cubic-bezier(0, .8, .2, 1) !important;	
+    backdrop-filter: blur(5px) !important;	
+}	
+tp-yt-app-drawer#guide[opened][reveal-nav-bar] #scrim.tp-yt-app-drawer {	
+    opacity: 1 !important;	
+}
+tp-yt-app-drawer#guide {	
+    width: auto !important;	
+    right: 0 !important;	
+    transition-property: visibility !important;	
+    transition-duration: 200ms !important;	
 }	
