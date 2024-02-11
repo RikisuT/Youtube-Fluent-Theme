@@ -1002,9 +1002,6 @@ button.yt-spec-button-shape-next.yt-spec-button-shape-next--tonal.yt-spec-button
  #endorsement.ytd-video-preview ytd-thumbnail-overlay-endorsement-renderer.ytd-video-preview{
 	 border-radius: 12px 12px 0 0!important;
 }
- #dismissible.ytd-rich-grid-media:hover ytd-thumbnail yt-image {
-	 visibility: hidden!important;
-}
  .ytp-inline-preview-scrim.ytp-inline-preview-scrim-clear{
 	 display: none!important;
 }
