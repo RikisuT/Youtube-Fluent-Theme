@@ -1325,14 +1325,6 @@ span.ytd-thumbnail-overlay-loading-preview-renderer{
 #meta.ytd-video-preview {
 	border-radius: 0px !important;
 }
-/* FIX FOR NEW YT THEME*/
-	/* Temporary fixes. THESE WILL NOT WORK THE NEXT TIME YOUTUBE UPDATES ITS CODE. */
-	ytd-watch-metadata { 
-	  display: none !important;
-	}
-	#meta-contents[hidden], #info-contents[hidden] { 
-	  display: block !important;
-	}
  /* Permanent fixes */
    /* Removes second comment section, */
    #comment-teaser.ytd-watch-metadata {
