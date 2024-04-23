@@ -1,102 +1,102 @@
 /*TO TURN OFF AUTO HIDE SIDEBAR REMOVE THE BELOW CODE AND TURN OFF THE JAVASCRIPT CODE*/
-    /*From Here*/
+/*From Here*/
 
-	ytd-page-manager.ytd-app {
-		margin-left: 0 !important;
-	}
-	
-	ytd-mini-guide-renderer.ytd-app,
-	ytd-mini-guide-renderer.ytd-app * {
-		width: 0 !important;
-	}
-	
-	ytd-playlist-sidebar-renderer.ytd-browse,
-	ytd-playlist-header-renderer.ytd-browse {
-		left: 0 !important;
-	}
-	
-	tp-yt-app-drawer#guide {
-		width: auto !important;
-		right: 0 !important;
-		transition-property: visibility !important;
-		transition-duration: 200ms !important;
-	}
-	
-	#contentContainer.tp-yt-app-drawer {
-		width: var(--app-drawer-width, 256px) !important;
-		transform: translateX(-100%) !important;
-		transition: transform 200ms cubic-bezier(0, .8, .2, 1) !important;
-	}
-	
-	*[reveal-nav-bar] #contentContainer.tp-yt-app-drawer[opened] {
-		transform: translateX(0) !important;
-	}
-	
-	div#scrim,
-	#scrim.tp-yt-app-drawer {
-		transition-property: opacity, backdrop-filter !important;
-		transition-duration: 200ms !important;
-		transition-timing-function: cubic-bezier(0, .8, .2, 1) !important;
-		backdrop-filter: blur(5px) !important;
-	}
-	
-	tp-yt-app-drawer#guide[opened][reveal-nav-bar] #scrim.tp-yt-app-drawer {
-		opacity: 1 !important;
-	}
+ytd-page-manager.ytd-app {
+	margin-left: 0 !important;
+}
 
-    /*To Here*/
+ytd-mini-guide-renderer.ytd-app,
+ytd-mini-guide-renderer.ytd-app * {
+	width: 0 !important;
+}
+
+ytd-playlist-sidebar-renderer.ytd-browse,
+ytd-playlist-header-renderer.ytd-browse {
+	left: 0 !important;
+}
+
+tp-yt-app-drawer#guide {
+	width: auto !important;
+	right: 0 !important;
+	transition-property: visibility !important;
+	transition-duration: 200ms !important;
+}
+
+#contentContainer.tp-yt-app-drawer {
+	width: var(--app-drawer-width, 256px) !important;
+	transform: translateX(-100%) !important;
+	transition: transform 200ms cubic-bezier(0, .8, .2, 1) !important;
+}
+
+*[reveal-nav-bar] #contentContainer.tp-yt-app-drawer[opened] {
+	transform: translateX(0) !important;
+}
+
+div#scrim,
+#scrim.tp-yt-app-drawer {
+	transition-property: opacity, backdrop-filter !important;
+	transition-duration: 200ms !important;
+	transition-timing-function: cubic-bezier(0, .8, .2, 1) !important;
+	backdrop-filter: blur(5px) !important;
+}
+
+tp-yt-app-drawer#guide[opened][reveal-nav-bar] #scrim.tp-yt-app-drawer {
+	opacity: 1 !important;
+}
+
+/*To Here*/
 /*To get back the Download button remove from here*/
-	ytd-button-renderer.style-scope.ytd-download-button-renderer{
-		display:none!important;
-	}
-    /*to here*/
+ytd-button-renderer.style-scope.ytd-download-button-renderer{
+	display:none!important;
+}
+/*to here*/
 /* SIDEBAR CONFIG */
-  #contentContainer.tp-yt-app-drawer[opened] {
-	   background: #18181818 !important;/*CHANGE THIS TO APPLY COLOR TO SIDEBAR*/
-	   backdrop-filter: blur(10px) !important;
-	   border-radius: 10px !important;
-  }
+#contentContainer.tp-yt-app-drawer[opened] {
+   background: #18181818 !important;/*CHANGE THIS TO APPLY COLOR TO SIDEBAR*/
+   backdrop-filter: blur(10px) !important;
+   border-radius: 10px !important;
+}
 /*Caption Window BG and Blur*/
-  .caption-window {
-	   background-color: rgba(50, 50, 50, .2) !important;/*CHANGE THE DECIMAL VALUE TO ADJUST THE DARKNESS OF THE CAPTION WINDOW*/
-	   backdrop-filter: blur(10px) !important;
-	   border-radius: 10px !important;
-  }
+.caption-window {
+   background-color: rgba(50, 50, 50, .2) !important;/*CHANGE THE DECIMAL VALUE TO ADJUST THE DARKNESS OF THE CAPTION WINDOW*/
+   backdrop-filter: blur(10px) !important;
+   border-radius: 10px !important;
+}
 /*Dark search text 
-  .sbsb_d{
-   	background: rgba(20, 20, 20, 0.3) !important;
-  }*/
+.sbsb_d{
+background: rgba(20, 20, 20, 0.3) !important;
+}*/
 /*Light search text*/
-  .sbsb_d {
-   	background: rgba(255, 255, 255, 0.1) !important;
-  }
+.sbsb_d {
+background: rgba(255, 255, 255, 0.1) !important;
+}
 /*Scrollbar theme by https://github.com/luandersonn*/
-  body::-webkit-scrollbar {
-  	width: 10px;
-  	transition: 1.0s;
-  }
-  body::-webkit-scrollbar-thumb {
-  	background-color: rgba(127, 127, 127, 0.6);
-   	background-clip: padding-box;
-   	border: 2px solid transparent;
-   	border-radius: 5px;
-   	transition: 1.0s;
-  }
-  body::-webkit-scrollbar-thumb:vertical:hover,
-  body::-webkit-scrollbar-thumb:horizontal:hover {
-   	background-color: rgb(110, 110, 110);
-   	transition: 0.3s;
-  }
-  body::-webkit-scrollbar-track {
-   	background-color: transparent;
-  }
-  body::-webkit-scrollbar-thumb:vertical:active,
-  ::-webkit-scrollbar-thumb:horizontal:active {
-   	background: rgba(95, 91, 91, 1);
-  }
-  body::-webkit-scrollbar-corner {
-   	background: none;
-  }
+body::-webkit-scrollbar {
+width: 10px;
+transition: 1.0s;
+}
+body::-webkit-scrollbar-thumb {
+background-color: rgba(127, 127, 127, 0.6);
+background-clip: padding-box;
+border: 2px solid transparent;
+border-radius: 5px;
+transition: 1.0s;
+}
+body::-webkit-scrollbar-thumb:vertical:hover,
+body::-webkit-scrollbar-thumb:horizontal:hover {
+background-color: rgb(110, 110, 110);
+transition: 0.3s;
+}
+body::-webkit-scrollbar-track {
+background-color: transparent;
+}
+body::-webkit-scrollbar-thumb:vertical:active,
+::-webkit-scrollbar-thumb:horizontal:active {
+background: rgba(95, 91, 91, 1);
+}
+body::-webkit-scrollbar-corner {
+background: none;
+}
 /*Smooth Scroll*/
 html {
 	scroll-behavior: smooth;
@@ -190,6 +190,12 @@ ytd-thumbnail.ytd-rich-movie-renderer:before {
 /*thumbnail overlay (play all) bg color*/
 ytd-thumbnail-overlay-hover-text-renderer {
 	background-color: rgba(0, 0, 0, 0.5) !important;
+}
+.thumbnail-overlay-badge-shape{
+margin: 0!important;
+}
+.badge-shape-wiz--default.badge-shape-wiz--overlay{
+background: none!important;
 }
 /*channel menu item border radius*/
 ytd-account-item-renderer.style-scope.ytd-account-item-section-renderer, paper-item.list-item.style-scope.ytd-account-settings {
@@ -1331,15 +1337,15 @@ span.ytd-thumbnail-overlay-loading-preview-renderer{
  /* Permanent fixes */
    /* Removes second comment section, */
    #comment-teaser.ytd-watch-metadata {
-   	display: none;
+	display: none;
    }
    /* Removes border around creator's name and sub button. NOTE: This part doesn't work as of 1.1, but keeping it for now just in case. */
    #owner.ytd-watch-metadata {
-   	border: none; 
+	border: none; 
    }
    /* Removes border around creator's name and sub button. */
    ytd-watch-metadata:not([modern-metapanel]) #owner.ytd-watch-metadata {
-   	border: none;
+	border: none;
    }
    /* Reverts the video title font. */
    ytd-watch-metadata[smaller-yt-sans-light-title] h1.ytd-watch-metadata {
